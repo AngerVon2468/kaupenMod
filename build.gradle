@@ -74,6 +74,8 @@ dependencies {
 	modImplementation "curse.maven:mavity_lib-1016352:${project.mavity_lib_version_curseforge}"
 
 	modImplementation "curse.maven:modmenu-badges-lib-914586:4758379"
+
+	modImplementation "curse.maven:cosmetic-lib-1019553:${project.cosmetic_lib_version}"
 }
 
 processResources {
