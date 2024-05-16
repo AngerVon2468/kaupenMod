@@ -40,9 +40,9 @@ public class kaupenMod implements ModInitializer {
 	@kaupenPog
 	public static void kaupenModders(kaupenPoggerz pog) {
 		LOGGER.info("Mavity!");
-		LOGGER.info("Garnish!");
+		LOGGER.info("GarnishHat!");
 		LOGGER.info("epiccool!");
-		LOGGER.info("Tuna!");
+		LOGGER.info("TunaMods!");
 		LOGGER.info("Okamiz!");
 		LOGGER.info("mlodziak00!");
 		LOGGER.info("Diemant!");
