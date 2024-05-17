@@ -15,7 +15,6 @@ import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
 // TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
 
-// Maybe we should just get rid of dibs-
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
