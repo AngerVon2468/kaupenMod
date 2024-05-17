@@ -16,9 +16,10 @@ public class kaupenModItemGroups {
             new Identifier(kaupenMod.MOD_ID, "all"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaupen_mod.all"))
                     .icon(() -> new ItemStack(Items.NETHER_STAR)).entries((displayContext, entries) -> {
-                        entries.add(Items.NETHER_STAR);
-                        entries.add(kaupenModItems.kaupenPickaxe);
                         entries.add(kaupenModBlocks.kaupenDiscordBlock);
+                        entries.add(kaupenModItems.kaupenPickaxe);
+                        entries.add(kaupenModItems.kaupenCosplay);
+                        entries.add(kaupenModItems.kaupenCatEars);
                     }).build());
 
     public static void registerKaupenModItemGroups() {

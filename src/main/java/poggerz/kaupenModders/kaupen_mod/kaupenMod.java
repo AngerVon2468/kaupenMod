@@ -17,6 +17,7 @@ import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 // dibs on kaupenTools (epiccool)
 // dibs on kaupenAttire (Mavity)
 // dibs on KaupenDimension, KaupenStructures, KaupenBugs, KaupenCrashes and the kaupenBlocks (GarnishHat)
+// Maybe we should just get rid of dibs-
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
@@ -44,7 +45,7 @@ public class kaupenMod implements ModInitializer {
 
 	@kaupenPog
 	public static void kaupenModders(kaupenPoggerz pog) {
-		LOGGER.info("Mavity!");
+		LOGGER.info("Mavity The Madity!");
 		LOGGER.info("GarnishHat!");
 		LOGGER.info("epiccool!");
 		LOGGER.info("TunaMods!");
