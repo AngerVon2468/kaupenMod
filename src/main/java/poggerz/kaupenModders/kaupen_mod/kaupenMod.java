@@ -1,5 +1,7 @@
 package poggerz.kaupenModders.kaupen_mod;
 
+import dev.emi.trinkets.api.client.TrinketRenderer;
+import dev.emi.trinkets.api.client.TrinketRendererRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.*;
@@ -32,6 +34,9 @@ public class kaupenMod implements ModInitializer {
 		kaupenModItemTags.registerKaupenModTags();
 		kaupenModItems.registerKaupenModItems();
 		kaupenModBlocks.registerKaupenModBlocks();
+
+		// Trinket Render
+		TrinketRendererRegistry.registerRenderer(kaupenModItems.kaupenCatEars, (TrinketRenderer) kaupenModItems.kaupenCatEars);
 
 		// kaupenModders
 		kaupenMod.kaupenModders(new kaupenPoggerz());
