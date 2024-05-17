@@ -5,8 +5,7 @@ import com.google.common.collect.Multimap;
 import dev.emi.trinkets.api.*;
 import dev.emi.trinkets.api.client.TrinketRenderer;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+import net.fabricmc.api.*;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.*;
@@ -58,7 +57,6 @@ public class kaupenCatEarsTrinket extends TrinketItem implements TrinketRenderer
     @Environment(EnvType.CLIENT)
     private BipedEntityModel<LivingEntity> getModel() {
         if (this.model == null) {
-            // Vanilla 1.17 uses EntityModels, EntityModelLoader and EntityModelLayers
             this.model = new kaupenCatEarsModel(kaupenCatEarsModel.getTexturedModelData().createModel());
         }
         return this.model;
@@ -75,9 +73,7 @@ public class kaupenCatEarsTrinket extends TrinketItem implements TrinketRenderer
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext options) {
         if (MavityLibConfig.showTooltips == true) {
-            tooltip.add(Text.translatable("tooltip.kaupen_mod.kaupen_cat_ears.one"));
-            tooltip.add(Text.translatable("tooltip.kaupen_mod.kaupen_cat_ears.two"));
-            tooltip.add(Text.translatable("tooltip.kaupen_mod.kaupen_cat_ears.three"));
+            tooltip.add(Text.translatable("tooltip.kaupen_mod.kaupen_cat_ears"));
             super.appendTooltip(stack, world, tooltip, options);
         }
     }
