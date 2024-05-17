@@ -14,9 +14,7 @@ import poggerz.kaupenModders.kaupen_mod.util.annotation.kaupenPog;
 import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
 // TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
-// dibs on kaupenTools (epiccool)
-// dibs on kaupenAttire (Mavity)
-// dibs on KaupenDimension, KaupenStructures, KaupenBugs, KaupenCrashes and the kaupenBlocks (GarnishHat)
+
 // Maybe we should just get rid of dibs-
 public class kaupenMod implements ModInitializer {
 
