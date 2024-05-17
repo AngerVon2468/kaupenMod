@@ -1,7 +1,7 @@
 package poggerz.kaupenModders.kaupen_mod;
 
-import dev.emi.trinkets.api.client.TrinketRenderer;
-import dev.emi.trinkets.api.client.TrinketRendererRegistry;
+import dev.emi.trinkets.api.client.*;
+
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.*;
@@ -13,8 +13,9 @@ import poggerz.kaupenModders.kaupen_mod.item.kaupenModItems;
 import poggerz.kaupenModders.kaupen_mod.util.annotation.kaupenPog;
 import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
-// TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
+import wiiu.mavity.mavity_lib.config.MavityLibConfig;
 
+// TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";
@@ -22,6 +23,8 @@ public class kaupenMod implements ModInitializer {
 	public static final String NAME = "kaupenMod";
 
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
+
+	public final String cringe = MavityLibConfig.trollMavity;
 
 	@Override
 	public void onInitialize() {
@@ -37,7 +40,7 @@ public class kaupenMod implements ModInitializer {
 		TrinketRendererRegistry.registerRenderer(kaupenModItems.kaupenCatEars, (TrinketRenderer) kaupenModItems.kaupenCatEars);
 
 		// kaupenModders
-		kaupenMod.kaupenModders(new kaupenPoggerz());
+		kaupenMod.kaupenModders(new kaupenPoggerz(this.cringe));
 	}
 
 	@kaupenPog
