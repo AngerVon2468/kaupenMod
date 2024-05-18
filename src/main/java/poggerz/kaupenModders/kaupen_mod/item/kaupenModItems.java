@@ -27,9 +27,9 @@ public class kaupenModItems {
 
     // MATERIALS
 
-    public static final Item RAW_KAUPEN = ItemRegistry.registerItem(kaupenMod.MOD_ID, "raw_kaupen",
+    public static final Item rawKaupenIngot = ItemRegistry.registerItem(kaupenMod.MOD_ID, "raw_kaupen",
             new Item(new FabricItemSettings()));
-    public static final Item KAUPEN_INGOT = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_ingot",
+    public static final Item kaupenIngot = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_ingot",
             new Item(new FabricItemSettings()));
 
 
