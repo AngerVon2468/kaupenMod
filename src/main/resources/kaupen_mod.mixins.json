@@ -3,7 +3,6 @@
 	"package": "poggerz.kaupenModders.kaupen_mod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"kaupenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
