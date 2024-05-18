@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum kaupenModToolMaterial implements ToolMaterial {
-    KAUPEN(5,650,4.5f,3.5f,26,() -> Ingredient.ofItems(kaupenModItems.KAUPEN_INGOT));
+    KAUPEN(5,650,4.5f,3.5f,26,() -> Ingredient.ofItems(kaupenModItems.kaupenIngot));
 
     private final int miningLevel;
     private final int itemDurability;
