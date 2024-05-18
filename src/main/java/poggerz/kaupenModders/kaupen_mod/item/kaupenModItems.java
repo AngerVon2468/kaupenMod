@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 
+import net.minecraft.item.SwordItem;
 import poggerz.kaupenModders.kaupen_mod.item.itemtype.trinket.kaupenCatEarsTrinket;
 import poggerz.kaupenModders.kaupen_mod.kaupenMod;
 
@@ -14,6 +15,7 @@ import wiiu.mavity.mavity_lib.property.PropertyInit;
 
 public class kaupenModItems {
     public static final Item kaupenPickaxe = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_pickaxe", new PickaxeItem(kaupenModToolMaterial.KAUPEN, 2, 2f, PropertyInit.GTOI));
+    public static final Item kaupenSword = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_sword", new SwordItem(kaupenModToolMaterial.KAUPEN, 5, 3f, PropertyInit.GTOI));
 
     public static final Item kaupenCosplay = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_cosplay", new ClothingItem(PropertyInit.GTOIU, kaupenMod.MOD_ID, "kaupen_cosplay"));
 
