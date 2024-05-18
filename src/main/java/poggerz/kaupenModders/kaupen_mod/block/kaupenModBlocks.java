@@ -30,11 +30,11 @@ public class kaupenModBlocks {
 
     // ORES BLOCKS
 
-    public static final Block KAUPEN_BLOCK = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_block",
+    public static final Block kaupenOreBlock = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
-    public static final Block KAUPEN_ORE = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_ore",
+    public static final Block kaupenOre = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0f,3.0f), UniformIntProvider.create(2, 4)));
-    public static final Block DEEPSLATE_KAUPEN_ORE = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"deepslate_kaupen_ore",
+    public static final Block kaupenDeepslateOre = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"deepslate_kaupen_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4.5f,3.0f), UniformIntProvider.create(3, 7)));
 
 
