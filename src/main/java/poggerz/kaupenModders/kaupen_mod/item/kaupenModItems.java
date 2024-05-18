@@ -1,5 +1,6 @@
 package poggerz.kaupenModders.kaupen_mod.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 
@@ -17,6 +18,21 @@ public class kaupenModItems {
     public static final Item kaupenCosplay = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_cosplay", new ClothingItem(PropertyInit.GTOIU, kaupenMod.MOD_ID, "kaupen_cosplay"));
 
     public static final Item kaupenCatEars = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_cat_ears", new kaupenCatEarsTrinket(PropertyInit.GTOIU));
+
+
+
+
+
+
+
+    // MATERIALS
+
+    public static final Item RAW_KAUPEN = ItemRegistry.registerItem(kaupenMod.MOD_ID, "raw_kaupen",
+            new Item(new FabricItemSettings()));
+    public static final Item KAUPEN_INGOT = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_ingot",
+            new Item(new FabricItemSettings()));
+
+
 
     public static void registerKaupenModItems() {
         kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its items.");

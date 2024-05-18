@@ -16,8 +16,18 @@ public class kaupenModItemGroups {
             new Identifier(kaupenMod.MOD_ID, "all"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaupen_mod.all"))
                     .icon(() -> new ItemStack(Items.NETHER_STAR)).entries((displayContext, entries) -> {
-                        entries.add(kaupenModBlocks.kaupenDiscordBlock);
+
+                        entries.add(kaupenModItems.KAUPEN_INGOT);
+                        entries.add(kaupenModItems.RAW_KAUPEN);
+
                         entries.add(kaupenModItems.kaupenPickaxe);
+
+                        entries.add(kaupenModBlocks.KAUPEN_ORE);
+                        entries.add(kaupenModBlocks.DEEPSLATE_KAUPEN_ORE);
+                        entries.add(kaupenModBlocks.KAUPEN_BLOCK);
+
+                        entries.add(kaupenModBlocks.kaupenDiscordBlock);
+
                         entries.add(kaupenModItems.kaupenCosplay);
                         entries.add(kaupenModItems.kaupenCatEars);
                     }).build());
