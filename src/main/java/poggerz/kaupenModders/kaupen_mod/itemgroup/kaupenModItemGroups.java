@@ -20,10 +20,11 @@ public class kaupenModItemGroups {
                         entries.add(kaupenModItems.kaupenIngot);
                         entries.add(kaupenModItems.rawKaupenIngot);
 
+                        entries.add(kaupenModItems.kaupenSword);
                         entries.add(kaupenModItems.kaupenPickaxe);
 
                         entries.add(kaupenModBlocks.kaupenOre);
-                        entries.add(kaupenModBlocks.deepslateKaupenOre);
+                        //entries.add(kaupenModBlocks.deepslateKaupenOre);
                         entries.add(kaupenModBlocks.kaupenOreBlock);
 
                         entries.add(kaupenModBlocks.kaupenDiscordBlock);
@@ -33,6 +34,6 @@ public class kaupenModItemGroups {
                     }).build());
 
     public static void registerKaupenModItemGroups() {
-        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its' itemgroups.");
+        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its itemgroups.");
     }
 }
