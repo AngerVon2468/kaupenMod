@@ -55,7 +55,8 @@
 		"porting_lib_core": "*",
 		"porting_lib_model_loader": "*",
 		"porting_lib_obj_loader": "*",
-		"isxander-main-menu-credits": "*"
+		"isxander-main-menu-credits": "*",
+		"mavity_lib": "*"
 	},
 	"recommends": {
 		"modmenu-badges-lib": "*"
