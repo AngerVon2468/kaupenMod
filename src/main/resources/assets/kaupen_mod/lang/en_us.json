@@ -1,11 +1,11 @@
 {
-  "titlescreen.mavity_lib.bottom_left": "kaupenMod v1.1.3",
+  "titlescreen.mavity_lib.bottom_left": "kaupenMod v1.2.0",
   "titlescreen.mavity_lib.bottom_right": "",
   "titlescreen.mavity_lib.top_left": "",
   "titlescreen.mavity_lib.top_right": "",
 
-  "item.kaupen_mod.raw_kaupen": "Raw Kaupen",
-  "item.kaupen_mod.kaupen_ingot": "Kaupen Ingot",
+  "item.kaupen_mod.raw_kaupen_ingot": "rawKaupenIngot",
+  "item.kaupen_mod.kaupen_ingot": "kaupenIngot",
 
   "item.kaupen_mod.kaupen_pickaxe": "kaupenPickaxe",
   "item.kaupen_mod.kaupen_sword": "kaupenSword",
@@ -13,8 +13,8 @@
 
   "itemgroup.kaupen_mod.all": "kaupenTab",
 
-  "block.kaupen_mod.kaupen_ore": "Kaupen Ore",
-  "block.kaupen_mod.deepslate_kaupen_ore": "Deepslate Kaupen Ore",
-  "block.kaupen_mod.kaupen_block": "Kaupen Block",
+  "block.kaupen_mod.kaupen_ore": "kaupenOre",
+  "block.kaupen_mod.deepslate_kaupen_ore": "deepslateKaupenOre",
+  "block.kaupen_mod.kaupen_block": "kaupenBlock",
   "block.kaupen_mod.kaupen_discord_block": "kaupenDiscordBlock"
 }
