@@ -4,17 +4,17 @@
   "titlescreen.mavity_lib.top_left": "",
   "titlescreen.mavity_lib.top_right": "",
 
-  "item.kaupen_mod.raw_kaupen_ingot": "rawKaupenIngot",
-  "item.kaupen_mod.kaupen_ingot": "kaupenIngot",
+  "item.kaupen_mod.raw_kaupen_ingot": "Raw Kaupen Ore",
+  "item.kaupen_mod.kaupen_ingot": "Kaupen Ingot",
 
-  "item.kaupen_mod.kaupen_pickaxe": "kaupenPickaxe",
-  "item.kaupen_mod.kaupen_sword": "kaupenSword",
-  "item.kaupen_mod.kaupen_cosplay": "kaupenCosplay",
+  "item.kaupen_mod.kaupen_pickaxe": "Kaupen Pickaxe",
+  "item.kaupen_mod.kaupen_sword": "Kaupen Sword",
+  "item.kaupen_mod.kaupen_cosplay": "Kaupen Cosplay",
 
-  "itemgroup.kaupen_mod.all": "kaupenTab",
+  "itemgroup.kaupen_mod.all": "Kaupen Tab",
 
-  "block.kaupen_mod.kaupen_ore": "kaupenOre",
-  "block.kaupen_mod.deepslate_kaupen_ore": "deepslateKaupenOre",
-  "block.kaupen_mod.kaupen_block": "kaupenBlock",
-  "block.kaupen_mod.kaupen_discord_block": "kaupenDiscordBlock"
+  "block.kaupen_mod.kaupen_ore": "Kaupen Ore",
+  "block.kaupen_mod.deepslate_kaupen_ore": "Deepslate Kaupen Ore",
+  "block.kaupen_mod.kaupen_block": "Kaupen Block",
+  "block.kaupen_mod.kaupen_discord_block": "Kaupen Discord Block"
 }
