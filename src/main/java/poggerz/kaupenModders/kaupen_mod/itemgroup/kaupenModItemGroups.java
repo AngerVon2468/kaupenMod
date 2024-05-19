@@ -24,7 +24,7 @@ public class kaupenModItemGroups {
                         entries.add(kaupenModItems.kaupenPickaxe);
 
                         entries.add(kaupenModBlocks.kaupenOre);
-                        entries.add(kaupenModBlocks.kaupenDeepslateOre);
+                        entries.add(kaupenModBlocks.deepslateKaupenOre);
                         entries.add(kaupenModBlocks.kaupenOreBlock);
 
                         entries.add(kaupenModBlocks.kaupenDiscordBlock);

@@ -1,5 +1,8 @@
 {
   "titlescreen.mavity_lib.bottom_left": "kaupenMod v1.1.3",
+  "titlescreen.mavity_lib.bottom_right": "",
+  "titlescreen.mavity_lib.top_left": "",
+  "titlescreen.mavity_lib.top_right": "",
 
   "item.kaupen_mod.raw_kaupen": "Raw Kaupen",
   "item.kaupen_mod.kaupen_ingot": "Kaupen Ingot",
