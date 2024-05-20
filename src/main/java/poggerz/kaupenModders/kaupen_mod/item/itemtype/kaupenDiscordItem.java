@@ -14,7 +14,7 @@ public class kaupenDiscordItem extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (!world.isClient) {
-            user.sendMessage(Text.literal("(" + user.getEntityName() + "): https://discord.gg/kaupenjoe").styled(style ->
+            user.sendMessage(Text.literal("https://discord.gg/kaupenjoe").styled(style ->
                     style.withHoverEvent(
                             new HoverEvent(
                                     //TODO: Figure out creative uses of this && the clickevent actions
