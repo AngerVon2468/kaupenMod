@@ -15,7 +15,7 @@ import poggerz.kaupenModders.kaupen_mod.util.memez.kaupenPoggerz;
 
 import wiiu.mavity.mavity_lib.config.MavityLibConfig;
 
-// TODO: KaupenSticks, KaupenOres, KaupenTools, KaupenBlocks, KaupenAttire, KaupenDimensions, KaupenMobs, KaupenPlants, KaupenItems, & full usage of Mavity Lib.
+// TODO: kaupenTools, kaupenBlocks, kaupenAttire, kaupenDimensions, kaupenMobs, kaupenPlants, kaupenItems, & full usage of Mavity Lib.
 public class kaupenMod implements ModInitializer {
 
 	public static final String MOD_ID = "kaupen_mod";

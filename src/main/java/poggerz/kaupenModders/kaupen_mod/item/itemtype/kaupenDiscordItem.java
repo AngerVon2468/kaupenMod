@@ -14,14 +14,14 @@ public class kaupenDiscordItem extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (!world.isClient) {
-            user.sendMessage(Text.literal("https://discord.gg/kaupenhub").styled(style ->
+            user.sendMessage(Text.literal("(" + user.getEntityName() + "): https://discord.gg/kaupenjoe").styled(style ->
                     style.withHoverEvent(
                             new HoverEvent(
                                     //TODO: Figure out creative uses of this && the clickevent actions
                                     HoverEvent.Action.SHOW_TEXT,
-                                    Text.literal("https://discord.gg/kaupenhub")
+                                    Text.literal("https://discord.gg/kaupenjoe")
                             )
-                    ).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.gg/kaupenhub-836324368803430400"))
+                    ).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.gg/kaupenjoe"))
             ));
         }
         return TypedActionResult.pass(user.getStackInHand(hand));
