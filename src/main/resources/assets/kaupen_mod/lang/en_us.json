@@ -1,15 +1,18 @@
 {
-  "titlescreen.mavity_lib.bottom_left": "kaupenMod v2.0.1",
+  "titlescreen.mavity_lib.bottom_left": "kaupenMod v2.2.0",
   "titlescreen.mavity_lib.bottom_right": "",
   "titlescreen.mavity_lib.top_left": "",
   "titlescreen.mavity_lib.top_right": "",
 
   "item.kaupen_mod.raw_kaupen_ingot": "Raw Kaupen Ore",
   "item.kaupen_mod.kaupen_ingot": "Kaupen Ingot",
+  "item.kaupen_mod.kaupen_discord_item": "Kaupen Discord Item",
 
   "item.kaupen_mod.kaupen_pickaxe": "Kaupen Pickaxe",
   "item.kaupen_mod.kaupen_sword": "Kaupen Sword",
+
   "item.kaupen_mod.kaupen_cosplay": "Kaupen Cosplay",
+  "item.kaupen_mod.kaupen_cat_ears": "Kaupen Cat Ears",
 
   "itemgroup.kaupen_mod.all": "Kaupen Tab",
 

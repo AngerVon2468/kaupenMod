@@ -22,7 +22,6 @@ public class kaupenModItems {
 
     public static final Item kaupenCatEars = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_cat_ears", new kaupenCatEarsTrinket(PropertyInit.GTOIU));
 
-    // HAS NOT BEEN TESTED.
     public static final Item kaupenDiscordItem = ItemRegistry.registerItem(kaupenMod.MOD_ID, "kaupen_discord_item", new kaupenDiscordItem(PropertyInit.GTOIU));
 
     // kaupenMaterials

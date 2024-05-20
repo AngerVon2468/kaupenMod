@@ -28,6 +28,7 @@ public class kaupenModItemGroups {
                         entries.add(kaupenModBlocks.kaupenOreBlock);
 
                         entries.add(kaupenModBlocks.kaupenDiscordBlock);
+                        entries.add(kaupenModItems.kaupenDiscordItem);
 
                         entries.add(kaupenModItems.kaupenCosplay);
                         entries.add(kaupenModItems.kaupenCatEars);
