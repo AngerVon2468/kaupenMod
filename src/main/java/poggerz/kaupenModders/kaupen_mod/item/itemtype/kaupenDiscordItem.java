@@ -17,7 +17,7 @@ public class kaupenDiscordItem extends Item {
             user.sendMessage(Text.literal("https://discord.gg/kaupenjoe").styled(style ->
                     style.withHoverEvent(
                             new HoverEvent(
-                                    //TODO: Figure out creative uses of this && the clickevent actions
+                                    //TODO: Figure out creative uses of this the clickevent actions && the removal of this item upon usage
                                     HoverEvent.Action.SHOW_TEXT,
                                     Text.literal("https://discord.gg/kaupenjoe")
                             )
