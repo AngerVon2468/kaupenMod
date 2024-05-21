@@ -3,6 +3,7 @@ package poggerz.kaupenModders.kaupen_mod;
 import dev.emi.trinkets.api.client.*;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.loader.api.FabricLoader;
 
 import org.slf4j.*;
 
@@ -30,7 +31,9 @@ public class kaupenMod implements ModInitializer {
 	public void onInitialize() {
 
 		// Initializing classes.
-		kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its main class.");
+		if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+			kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its main class.");
+		}
 		kaupenModItemGroups.registerKaupenModItemGroups();
 		kaupenModItemTags.registerKaupenModTags();
 		kaupenModItems.registerKaupenModItems();
@@ -45,12 +48,14 @@ public class kaupenMod implements ModInitializer {
 
 	@kaupenPog
 	public static void kaupenModders(kaupenPoggerz pog) {
-		LOGGER.info("Mavity The Madity!");
-		LOGGER.info("GarnishHat!");
-		LOGGER.info("epiccool!");
-		LOGGER.info("TunaMods!");
-		LOGGER.info("Okamiz!");
-		LOGGER.info("mlodziak00!");
-		LOGGER.info("Diemant!");
+		if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+			LOGGER.info("Mavity The Madity!");
+			LOGGER.info("GarnishHat!");
+			LOGGER.info("epiccool!");
+			LOGGER.info("TunaMods!");
+			LOGGER.info("Okamiz!");
+			LOGGER.info("mlodziak00!");
+			LOGGER.info("Diemant!");
+		}
 	}
 }

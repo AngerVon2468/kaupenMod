@@ -1,5 +1,7 @@
 package poggerz.kaupenModders.kaupen_mod.item.itemtags;
 
+import net.fabricmc.loader.api.FabricLoader;
+
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
@@ -11,6 +13,8 @@ public class kaupenModItemTags {
     public static final TagKey<Item> kaupenStuff = TagKey.of(RegistryKeys.ITEM, new Identifier(kaupenMod.MOD_ID, "kaupen_stuff"));
 
     public static void registerKaupenModTags() {
-        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its' item tags.");
+        if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+            kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its' item tags.");
+        }
     }
 }

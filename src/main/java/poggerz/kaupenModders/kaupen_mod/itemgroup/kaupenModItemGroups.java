@@ -1,6 +1,7 @@
 package poggerz.kaupenModders.kaupen_mod.itemgroup;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.loader.api.FabricLoader;
 
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
@@ -35,6 +36,8 @@ public class kaupenModItemGroups {
                     }).build());
 
     public static void registerKaupenModItemGroups() {
-        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its itemgroups.");
+        if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+            kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its itemgroups.");
+        }
     }
 }

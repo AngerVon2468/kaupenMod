@@ -1,8 +1,7 @@
 package poggerz.kaupenModders.kaupen_mod.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-
-import net.minecraft.block.Block;
+import net.fabricmc.loader.api.FabricLoader;
 
 import net.minecraft.block.*;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
@@ -26,6 +25,8 @@ public class kaupenModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4.5f,3.0f), UniformIntProvider.create(3, 7)));
 
     public static void registerKaupenModBlocks() {
-        kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its items.");
+        if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+            kaupenMod.LOGGER.info(kaupenMod.NAME + " has registered its items.");
+        }
     }
 }

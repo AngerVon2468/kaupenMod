@@ -17,13 +17,14 @@ public class kaupenDiscordItem extends Item {
             user.sendMessage(Text.literal("https://discord.gg/kaupenjoe").styled(style ->
                     style.withHoverEvent(
                             new HoverEvent(
-                                    //TODO: Figure out creative uses of this the clickevent actions && the removal of this item upon usage
+                                    //TODO: Figure out creative uses of the clickevent
                                     HoverEvent.Action.SHOW_TEXT,
                                     Text.literal("https://discord.gg/kaupenjoe")
                             )
                     ).withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.gg/kaupenjoe"))
             ));
         }
+        user.getStackInHand(hand).decrement(1);
         return TypedActionResult.pass(user.getStackInHand(hand));
     }
 }

@@ -54,7 +54,8 @@
 		"porting_lib_model_loader": "*",
 		"porting_lib_obj_loader": "*",
 		"isxander-main-menu-credits": "*",
-		"mavity_lib": "*"
+		"mavity_lib": "*",
+		"cosmetic-lib": ">=1.0.3.2"
 	},
 	"recommends": {
 		"modmenu-badges-lib": "*",
