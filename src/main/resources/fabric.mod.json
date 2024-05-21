@@ -24,7 +24,7 @@
 		"sources": "https://github.com/AngerVon2468/kaupenMod"
 	},
 	"license": "MIT",
-	"icon": "assets/kaupen_mod/img_1.png",
+	"icon": "assets/kaupen_mod/kaupenpray.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
