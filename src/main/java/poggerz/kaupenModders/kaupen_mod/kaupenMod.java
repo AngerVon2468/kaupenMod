@@ -25,7 +25,7 @@ public class kaupenMod implements ModInitializer {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
-	public final String cringe = MavityLibConfig.trollMavity;
+	public final String troll = MavityLibConfig.trollMavity;
 
 	@Override
 	public void onInitialize() {
@@ -43,7 +43,7 @@ public class kaupenMod implements ModInitializer {
 		TrinketRendererRegistry.registerRenderer(kaupenModItems.kaupenCatEars, (TrinketRenderer) kaupenModItems.kaupenCatEars);
 
 		// kaupenModders
-		kaupenMod.kaupenModders(new kaupenPoggerz(this.cringe));
+		kaupenMod.kaupenModders(new kaupenPoggerz(this.troll));
 	}
 
 	@kaupenPog
