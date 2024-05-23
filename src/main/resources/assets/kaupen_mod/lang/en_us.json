@@ -1,23 +1,40 @@
 {
-  "titlescreen.mavity_lib.bottom_left": "kaupenMod v4.3.0",
+  "titlescreen.mavity_lib.bottom_left": "kaupenMod v5.0.0",
   "titlescreen.mavity_lib.bottom_right": "",
   "titlescreen.mavity_lib.top_left": "",
   "titlescreen.mavity_lib.top_right": "",
 
-  "item.kaupen_mod.raw_kaupen_ingot": "Raw Kaupen Ore",
-  "item.kaupen_mod.kaupen_ingot": "Kaupen Ingot",
+
   "item.kaupen_mod.kaupen_discord_item": "Kaupen Discord Item",
 
-  "item.kaupen_mod.kaupen_pickaxe": "Kaupen Pickaxe",
-  "item.kaupen_mod.kaupen_sword": "Kaupen Sword",
 
   "item.kaupen_mod.kaupen_cosplay": "Kaupen Cosplay",
   "item.kaupen_mod.kaupen_cat_ears": "Kaupen Cat Ears",
+  "tooltip.kaupen_mod.kaupen_cat_ears": "Look like a pro with these!",
 
   "itemgroup.kaupen_mod.all": "Kaupen Tab",
 
-  "block.kaupen_mod.kaupen_ore": "Kaupen Ore",
-  "block.kaupen_mod.deepslate_kaupen_ore": "Deepslate Kaupen Ore",
-  "block.kaupen_mod.kaupen_block": "Kaupen Block",
+
+  "block.kaupen_mod.kaupen_leaves": "Kaupen Leaves",
+  "block.kaupen_mod.kaupen_planks": "Kaupen Planks",
+  "block.kaupen_mod.stripped_kaupen_log": "Stripped Kaupen Log",
+  "block.kaupen_mod.kaupen_log": "Kaupen Log",
+  "block.kaupen_mod.stripped_kaupen_wood": "Stripped Kaupen Wood",
+  "block.kaupen_mod.kaupen_wood": "Kaupen Wood",
+
+  "block.kaupen_mod.polished_kaupenstone": "Polished Kaupenstone",
+
+
+
+  "block.kaupen_mod.kaupen_ore": "Kaupenite Ore",
+  "block.kaupen_mod.deepslate_kaupen_ore": "Deepslate Kaupenite Ore",
+  "block.kaupen_mod.kaupen_block": "Block of Kaupenite",
+
+  "item.kaupen_mod.raw_kaupen_ingot": "Raw Kaupenite Ore",
+  "item.kaupen_mod.kaupen_ingot": "Kaupenite Ingot",
+
+  "item.kaupen_mod.kaupen_pickaxe": "Kaupenite Pickaxe",
+  "item.kaupen_mod.kaupen_sword": "Kaupenite Sword",
+
   "block.kaupen_mod.kaupen_discord_block": "Kaupen Discord Block"
 }

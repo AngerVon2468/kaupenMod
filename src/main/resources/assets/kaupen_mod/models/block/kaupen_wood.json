@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kaupen_mod:block/kaupen_log",
+    "side": "kaupen_mod:block/kaupen_log"
+  }
+}

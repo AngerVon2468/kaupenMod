@@ -15,6 +15,37 @@ public class kaupenModBlocks {
     public static final Block kaupenDiscordBlock = BlockRegistry.registerBlock(kaupenMod.MOD_ID, "kaupen_discord_block",
             new kaupenDiscordBlock(FabricBlockSettings.create()));
 
+    // Wood Blocks
+
+    public static final Block kaupenLog = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
+    public static final Block kaupenStrippedLog = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"stripped_kaupen_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+
+    public static final Block kaupenWood = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+
+    public static final Block kaupenStrippedWood = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"stripped_kaupen_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+
+    public static final Block kaupenPlanks = BlockRegistry.registerBlock(kaupenMod.MOD_ID, "kaupen_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
+
+    public static final Block kaupenPolishedStone = BlockRegistry.registerBlock(kaupenMod.MOD_ID, "polished_kaupenstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE).strength(4f)));
+
+    public static final Block kaupenLeaves = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
+
+    //public static final Block kaupenSapling = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_sapling",
+    //        new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));;
+
+
+
+    //public static final Block kaupenLeaves = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_leaves.json",
+      //new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES)));
+
     // Ore Blocks
 
     public static final Block kaupenOreBlock = BlockRegistry.registerBlock(kaupenMod.MOD_ID,"kaupen_block",

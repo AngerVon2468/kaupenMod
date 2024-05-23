@@ -1,0 +1,6 @@
+{
+  "parent": "kaupen_mod:block/kaupen_leaves",
+  "textures": {
+    "layer0": "kaupen_mod:block/kaupen_leaves"
+  }
+}

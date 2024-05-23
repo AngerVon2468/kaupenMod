@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "kaupen_mod:block/kaupen_discord_block"}
+    "": {
+      "model": "kaupen_mod:block/kaupen_discord_block"
+    }
   }
 }

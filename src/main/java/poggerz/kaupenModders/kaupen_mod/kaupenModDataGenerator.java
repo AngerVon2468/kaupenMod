@@ -8,3 +8,4 @@ public class kaupenModDataGenerator implements DataGeneratorEntrypoint {
 		// Ew datagen
 	}
 }
+// Guess I need this for wood gen because no one's provided an alternative in several hours. - GarnishHat

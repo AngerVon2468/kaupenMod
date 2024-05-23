@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "kaupen_mod:block/stripped_kaupen_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "kaupen_mod:block/stripped_kaupen_wood"
+    },
+    "axis=z": {
+      "model": "kaupen_mod:block/stripped_kaupen_wood",
+      "x": 90
+    }
+  }
+}

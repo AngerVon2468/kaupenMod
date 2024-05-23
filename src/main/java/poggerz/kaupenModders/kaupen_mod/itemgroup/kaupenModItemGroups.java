@@ -28,6 +28,19 @@ public class kaupenModItemGroups {
                         entries.add(kaupenModBlocks.deepslateKaupenOre);
                         entries.add(kaupenModBlocks.kaupenOreBlock);
 
+
+
+                        entries.add(kaupenModBlocks.kaupenLog);
+                        entries.add(kaupenModBlocks.kaupenWood);
+                        entries.add(kaupenModBlocks.kaupenStrippedLog);
+                        entries.add(kaupenModBlocks.kaupenStrippedWood);
+                        entries.add(kaupenModBlocks.kaupenPlanks);
+                        entries.add(kaupenModBlocks.kaupenLeaves);
+                        //entries.add(kaupenModBlocks.kaupenSapling);
+
+                        entries.add(kaupenModBlocks.kaupenPolishedStone);
+
+
                         entries.add(kaupenModBlocks.kaupenDiscordBlock);
                         entries.add(kaupenModItems.kaupenDiscordItem);
 
